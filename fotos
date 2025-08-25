@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Fotografias — TUMO Lisboa</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <span class="badge">TUMO Lisboa</span>
+    <h1>Fotografias</h1>
+    <p class="subtitle">
+      Aqui reunimos os melhores momentos do intercâmbio, registrando experiências únicas dos estudantes em Lisboa.
+    </p>
+    <div class="cta">
+      <a class="btn secondary" href="index.html">← Voltar para áreas de estudo</a>
+    </div>
+  </header>
+
+  <!-- GALERIA DE FOTOS -->
+  <main class="gallery">
+    <div class="media" style="aspect-ratio: 4 / 3;">
+      <img src="img/foto1.jpg" alt="Foto do intercâmbio 1" />
+    </div>
+    <div class="media" style="aspect-ratio: 4 / 3;">
+      <img src="img/foto2.jpg" alt="Foto do intercâmbio 2" />
+    </div>
+    <div class="media" style="aspect-ratio: 4 / 3;">
+      <img src="img/foto3.jpg" alt="Foto do intercâmbio 3" />
+    </div>
+    <div class="media" style="aspect-ratio: 4 / 3;">
+      <img src="img/foto4.jpg" alt="Foto do intercâmbio 4" />
+    </div>
+    <div class="media" style="aspect-ratio: 4 / 3;">
+      <img src="img/foto5.jpg" alt="Foto do intercâmbio 5" />
+    </div>
+    <div class="media" style="aspect-ratio: 4 / 3;">
+      <img src="img/foto6.jpg" alt="Foto do intercâmbio 6" />
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Projetos de demonstração não-oficial — inspirado nas áreas de estudo do TUMO.</p>
+  </footer>
+
+</body>
+</html>
