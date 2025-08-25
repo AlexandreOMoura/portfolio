@@ -1,79 +1,50 @@
-<<<<<<< HEAD
 <!DOCTYPE html>
 <html lang="pt">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Música — TUMO Lisboa</title>
-  <style>
-    :root { --bg:#0f1226; --fg:#f4f7ff; --muted:#b8c0ff; --accent2:#00e0ff; --card:#171a36; }
-    body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--fg); padding:2rem; line-height:1.6; }
-    h1 { font-size:2rem; margin-bottom:1rem; }
-    .intro { color:var(--muted); max-width:60ch; margin-bottom:2rem; }
-    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; }
-    .media { background:var(--card); border-radius:12px; padding:1rem; text-align:center; color:var(--muted); aspect-ratio:16/9; display:flex; align-items:center; justify-content:center; }
-    .back { display:inline-block; margin-top:2rem; color:var(--accent2); text-decoration:none; }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>Música</h1>
-  <p class="intro">
-    Na Música, compus, gravamos e produzimos faixas originais, explorando ritmos, harmonia e arranjos com ferramentas digitais e instrumentos reais.
-  </p>
+  <!-- HEADER -->
+  <header>
+    <span class="badge">TUMO Lisboa</span>
+    <h1>Música</h1>
+    <p class="subtitle">
+      No módulo de Música, exploramos produção, síntese e criação de trilhas sonoras para cinema, jogos e experiências interativas.
+    </p>
+    <p class="subtitle">
+      Os estudantes aprenderam técnicas de composição, sound design, mixagem e gravação para criar experiências auditivas envolventes.
+    </p>
+    <div class="cta">
+      <a class="btn secondary" href="index.html">← Voltar para áreas de estudo</a>
+    </div>
+  </header>
 
-  <section class="gallery">
-<div class="media">
-  <img src="img\musica.jpeg" alt="Descrição da imagem" style="width:100%; height:100%; object-fit:cover; border-radius:8px;">
-</div>
-<div class="media">
-  <video src="movie\musica.mp4" style="width:100%; height:100%; object-fit:cover; border-radius:4px;" controls>
-    Seu navegador não suporta o elemento de vídeo.
-  </video>
-</div>
+  <!-- SEÇÃO SOBRE O MÓDULO -->
+  <section class="sobre">
+    <h2>Sobre este módulo</h2>
+    <p>
+      Os alunos produziram e editaram músicas e efeitos sonoros, explorando instrumentos virtuais, sintetizadores e técnicas de mixagem, criando trilhas sonoras que complementam projetos multimídia.
+    </p>
   </section>
 
-  <a href="index.html" class="back">← Voltar para áreas</a>
+  <!-- GALERIA DE PROJETOS (1 imagem + 1 vídeo do mesmo tamanho) -->
+  <main class="gallery">
+    <div class="media" style="aspect-ratio: 16 / 9;">
+      <img src="img\musica.jpeg" alt="Projeto de Música" />
+    </div>
+    <div class="media" style="aspect-ratio: 16 / 9;">
+      <video src="movie\musica.mp4" controls></video>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Projetos de demonstração não-oficial — inspirado nas áreas de estudo do TUMO.</p>
+  </footer>
 
 </body>
 </html>
-=======
-<!DOCTYPE html>
-<html lang="pt">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Música — TUMO Lisboa</title>
-  <style>
-    :root { --bg:#0f1226; --fg:#f4f7ff; --muted:#b8c0ff; --accent2:#00e0ff; --card:#171a36; }
-    body { margin:0; font-family:system-ui,sans-serif; background:var(--bg); color:var(--fg); padding:2rem; line-height:1.6; }
-    h1 { font-size:2rem; margin-bottom:1rem; }
-    .intro { color:var(--muted); max-width:60ch; margin-bottom:2rem; }
-    .gallery { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:1.5rem; }
-    .media { background:var(--card); border-radius:12px; padding:1rem; text-align:center; color:var(--muted); aspect-ratio:16/9; display:flex; align-items:center; justify-content:center; }
-    .back { display:inline-block; margin-top:2rem; color:var(--accent2); text-decoration:none; }
-  </style>
-</head>
-<body>
-
-  <h1>Música</h1>
-  <p class="intro">
-    Na Música, compus, gravamos e produzimos faixas originais, explorando ritmos, harmonia e arranjos com ferramentas digitais e instrumentos reais.
-  </p>
-
-  <section class="gallery">
-<div class="media">
-  <img src="img\musica.jpeg" alt="Descrição da imagem" style="width:100%; height:100%; object-fit:cover; border-radius:8px;">
-</div>
-<div class="media">
-  <video src="movie\musica.mp4" style="width:100%; height:100%; object-fit:cover; border-radius:4px;" controls>
-    Seu navegador não suporta o elemento de vídeo.
-  </video>
-</div>
-  </section>
-
-  <a href="index.html" class="back">← Voltar para áreas</a>
-
-</body>
-</html>
->>>>>>> 0091d1ab8bf8215b9d3e26dcab8c50c46d697367

@@ -4,72 +4,47 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Desenvolvimento de Jogos — TUMO Lisboa</title>
-  <style>
-    /* Mesmos estilos das outras páginas */
-    :root {
-      --bg: #0f1226;
-      --fg: #f4f7ff;
-      --muted: #b8c0ff;
-      --accent2: #00e0ff;
-      --card: #171a36;
-    }
-    body {
-      margin: 0;
-      font-family: system-ui, sans-serif;
-      background: var(--bg);
-      color: var(--fg);
-      padding: 2rem;
-      line-height: 1.6;
-    }
-    h1 { font-size: 2rem; margin-bottom: 1rem; }
-    .intro { color: var(--muted); max-width: 60ch; margin-bottom: 2rem; }
-    .gallery {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-      gap: 1.5rem;
-    }
-    .media {
-      background: var(--card);
-      border-radius: 12px;
-      padding: 1rem;
-      text-align: center;
-      color: var(--muted);
-      aspect-ratio: 16/9;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .back {
-      display: inline-block;
-      margin-top: 2rem;
-      color: var(--accent2);
-      text-decoration: none;
-    }
-  </style>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
-  <h1>Desenvolvimento de Jogos</h1>
-  <p class="intro">
-    Mergulhamos no universo dos jogos digitais, aprendendo como criar mecânicas envolventes e construir fases com propósito. Trabalhamos com motores gráficos, entendemos como a gameplay é estruturada e pudemos dar vida a modelos em protótipos jogáveis.
-  </p>
+  <!-- HEADER -->
+  <header>
+    <span class="badge">TUMO Lisboa</span>
+    <h1>Desenvolvimento de Jogos</h1>
+    <p class="subtitle">
+      No módulo de Desenvolvimento de Jogos, exploramos design de mecânicas, prototipagem e publicação de jogos 2D/3D usando motores populares.
+    </p>
+    <p class="subtitle">
+      Os estudantes aprenderam a criar experiências interativas, pensar em gameplay e level design, e desenvolver protótipos que funcionam em dispositivos reais.
+    </p>
+    <div class="cta">
+      <a class="btn secondary" href="index.html">← Voltar para áreas de estudo</a>
+    </div>
+  </header>
 
-  <section class="gallery">
-<div class="media">
-  <img src="img\Foto Gamificacao.png" alt="Descrição da imagem" style="width:100%; height:100%; object-fit:cover; border-radius:4px;">
-</div>
-<div class="media">
-<<<<<<< HEAD
-  <video src="movie\video-gamificacao.mp4" style="width:100%; height:100%; object-fit:cover; border-radius:4px;" controls>
-=======
-  <video src="movie\Video Gamificacao2.mp4" style="width:100%; height:100%; object-fit:cover; border-radius:4px;" controls>
->>>>>>> 0091d1ab8bf8215b9d3e26dcab8c50c46d697367
-    Seu navegador não suporta o elemento de vídeo.
-  </video>
-</div>
+  <!-- SEÇÃO SOBRE O MÓDULO -->
+  <section class="sobre">
+    <h2>Sobre este módulo</h2>
+    <p>
+      Os alunos trabalharam em projetos práticos, desenvolvendo jogos com personagens, níveis e mecânicas únicas. Aprenderam a testar, iterar e melhorar suas criações para proporcionar experiências divertidas e envolventes.
+    </p>
   </section>
 
-  <a href="index.html" class="back">← Voltar para áreas</a>
+  <!-- GALERIA DE PROJETOS (imagem e vídeo do mesmo tamanho) -->
+  <main class="gallery">
+    <div class="media" style="aspect-ratio: 16 / 9;">
+      <img src="img\Foto Gamificacao.png" alt="Projeto de jogo 2D" />
+    </div>
+    <div class="media" style="aspect-ratio: 16 / 9;">
+      <video src="movie\video-gamificacao.mp4" autoplay muted loop controls></video>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>Projetos de demonstração não-oficial — inspirado nas áreas de estudo do TUMO.</p>
+  </footer>
 
 </body>
 </html>
